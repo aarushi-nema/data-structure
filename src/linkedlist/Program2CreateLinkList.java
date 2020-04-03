@@ -1,6 +1,6 @@
 package linkedlist;
 //create three nodes in a linked list a
-public class CreateLinkList {
+public class Program2CreateLinkList {
 	
 	Node head;
 	
@@ -16,7 +16,7 @@ public class CreateLinkList {
 	}
 	
 	public static void main ( String [] args){
-		CreateLinkList llist= new CreateLinkList();
+		Program2CreateLinkList llist= new Program2CreateLinkList();
 		
 		llist.head = new Node (1);
 		Node second= new Node(2);

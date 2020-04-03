@@ -1,7 +1,7 @@
 package linkedlist;
 //#1 representation of a linked list
 
-public class Linked_List_Intro {
+public class Program1LinkedListIntro {
 	
 	class Linked_List{
 		
