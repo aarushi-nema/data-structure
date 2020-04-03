@@ -1,5 +1,5 @@
 package linkedlist;
-//create three nodes in a linked list
+//create three nodes in a linked list a
 public class CreateLinkList {
 	
 	Node head;
