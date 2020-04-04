@@ -1,6 +1,6 @@
 package linkedlist;
 //inserting node at the end
-public class Linked_List6 {
+public class Program6insert_node_at_end {
 	
 	Node head;
 	
@@ -46,7 +46,7 @@ public class Linked_List6 {
 	
 	public static void main( String [] args)
 	{
-		Linked_List6 llist= new Linked_List6();
+		Program6insert_node_at_end llist= new Program6insert_node_at_end();
 		
 		llist.head= new Node(1);
 		Node second= new Node(2);

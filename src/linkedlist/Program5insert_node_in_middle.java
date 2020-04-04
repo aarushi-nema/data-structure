@@ -1,6 +1,6 @@
 package linkedlist;
 //inserting a node in the middle of linked list
-public class Linked_List5 {
+public class Program5insert_node_in_middle {
 	
 	Node head;
 	
@@ -39,7 +39,7 @@ public class Linked_List5 {
 	
 	public static void main (String [] args)
 	{
-		Linked_List5 llist = new Linked_List5 ();
+		Program5insert_node_in_middle llist = new Program5insert_node_in_middle ();
 		llist.head= new Node (1);
 		Node second = new Node (2);
 		Node third= new Node(4);

@@ -1,6 +1,6 @@
 package linkedlist;
 //adding new node at beginning of linked list
-public class Linked_List4 {
+public class Program4insert_node_in_beginning {
 	Node head;
 	
 	static class Node{
@@ -35,7 +35,7 @@ public class Linked_List4 {
 	}
 	
 	public static void main(String [] args){
-		Linked_List4 llist= new Linked_List4 ();
+		Program4insert_node_in_beginning llist= new Program4insert_node_in_beginning ();
 		
 		llist.head= new Node(1);
 		Node second= new Node(2);
