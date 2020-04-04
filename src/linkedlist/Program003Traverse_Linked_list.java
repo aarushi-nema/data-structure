@@ -1,6 +1,6 @@
 package linkedlist;
 //Traverse a Linked List
-public class Program3TraverseLinklist {
+public class Program003Traverse_Linked_list {
 	Node head;
 	
 	static class Node{
@@ -24,7 +24,7 @@ public class Program3TraverseLinklist {
 	}
 	
 	public static void main (String [] args){
-		Program3TraverseLinklist llist= new Program3TraverseLinklist();
+		Program003Traverse_Linked_list llist= new Program003Traverse_Linked_list();
 		
 		llist.head= new Node(1);
 		Node second= new Node (2);

@@ -1,6 +1,6 @@
 package linkedlist;
 //find length of linked list (iterative method)
-public class Program10length_of_Linked_List_1 {
+public class Program010length_of_Linked_List_1 {
 	
 	Node head;
 	
@@ -43,7 +43,7 @@ public class Program10length_of_Linked_List_1 {
 	
 	public static void main ( String [] args)
 	{
-		Program10length_of_Linked_List_1 llist= new Program10length_of_Linked_List_1();
+		Program010length_of_Linked_List_1 llist= new Program010length_of_Linked_List_1();
 		
 		llist.head= new Node(1);
 		Node second= new Node(2);

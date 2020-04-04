@@ -1,6 +1,6 @@
 package linkedlist;
 //delete a linked list
-public class Program9delete_Linked_list {
+public class Program009delete_Linked_list {
 	
 	Node head;
 	
@@ -32,7 +32,7 @@ public class Program9delete_Linked_list {
 	
 	public static void main(String []  args)
 	{
-		Program9delete_Linked_list llist= new Program9delete_Linked_list();
+		Program009delete_Linked_list llist= new Program009delete_Linked_list();
 		
 		llist.head = new Node(1);
 		Node second= new Node(2);

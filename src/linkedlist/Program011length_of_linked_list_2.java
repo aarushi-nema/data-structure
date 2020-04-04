@@ -1,6 +1,6 @@
 package linkedlist;
 //length of linked list (recursive)
-public class Program11length_of_linked_list_2 {
+public class Program011length_of_linked_list_2 {
 	
 	Node head;
 	
@@ -39,7 +39,7 @@ public class Program11length_of_linked_list_2 {
 	
 	public static void main (String [] args)
 	{
-		Program11length_of_linked_list_2 llist= new Program11length_of_linked_list_2();
+		Program011length_of_linked_list_2 llist= new Program011length_of_linked_list_2();
 		llist.head= new Node(1);
 		Node second= new Node(2);
 		Node third= new Node(3);
