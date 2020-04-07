@@ -1,5 +1,5 @@
 package linkedlist;
-//create three nodes in a linked list a
+//create three nodes in a linked list 
 public class Program002Create_Linked_List {
 	
 	Node head;
