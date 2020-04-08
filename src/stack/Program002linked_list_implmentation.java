@@ -71,7 +71,7 @@ public class Program002linked_list_implmentation {
 			}
 
 			int r = data.delete_from_beginning();
-			top--;
+			top--; 
 			return r;
 		}
 
