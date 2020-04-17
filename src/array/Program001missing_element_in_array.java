@@ -27,7 +27,7 @@ public class Program001missing_element_in_array {
 		
 		for(int i=0; i<missing_count; i++){
 			missingindex= bitset.nextClearBit(missingindex);
-			System.out.println(++missingindex);
+			System.out.print(++missingindex +" ");
 		}
 		
 	}
