@@ -26,6 +26,14 @@ public class Program004duplicate_expression_finder {
 			return data[top--];
 		}
 		
+		public Integer top(){
+			if(top==-1){
+				System.out.println("Stack is empty");
+				return null;
+			}
+			
+			return data[top];
+		}
 	}
 	
 	public static void check_duplicate(char exp[]){
@@ -44,16 +52,22 @@ public class Program004duplicate_expression_finder {
 				      t= S.pop();
 				}while(t!= null && t!='(');
 			}
+			t = S.top();
+			if (t != null && t == '(') {
+				System.out.println("Duplicate expression");
+				break;
+			}
+			else 
+				System.out.println("Not Duplicate expression");
+		
 		}
 		
-		if (S.top=='(')
-			System.out.println("Duplicate expression");
-		else 
-			System.out.println("Not Duplicate expression");
-	}
+		}
 	
 	public static void main (String [] args){
-		char exp[]= {'(', '(', 'x', '+', 'y', ')', ')'};
+		//char exp[]= {'(', '(', 'x', '+', 'y', ')', '+', '(','(', 'z', ')',')', ')'};
+		char exp[]= {'(', '(', 'x', '+', 'y', ')', '+','(', 'z', ')', ')'};
+
 		check_duplicate(exp);
 	}
 	
