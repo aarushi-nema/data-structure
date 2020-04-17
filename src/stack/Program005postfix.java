@@ -85,7 +85,7 @@ public class Program005postfix {
 	}
 	
 	public static void main (String [] args){
-		char exp[]= {'8', '2', '/'};
+		char exp[]= {'2', '6', '4','+', '*', '5','/'};
 		postfix(exp);
 		
 	}
