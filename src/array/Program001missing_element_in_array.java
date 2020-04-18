@@ -6,8 +6,8 @@ import java.util.BitSet;
 public class Program001missing_element_in_array {
 	
 	public static void main (String [] args){
-		int [] array= {1,2,3,5,7,9};
-		int original_array_size= 9;
+		int [] array= {1,2,3,5,6,7};
+		int original_array_size= 7;
 		
 		Missing_element(array, original_array_size); 
 		
@@ -27,7 +27,7 @@ public class Program001missing_element_in_array {
 		
 		for(int i=0; i<missing_count; i++){
 			missingindex= bitset.nextClearBit(missingindex);
-			System.out.print(++missingindex +" ");	
+			System.out.println(++missingindex);
 		}
 		
 	}
