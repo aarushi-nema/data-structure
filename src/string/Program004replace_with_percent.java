@@ -34,8 +34,9 @@ public class Program004replace_with_percent {
 	}
 	
 	public static void main (String [] args){
-		char c[]= {'M', 's',' ','J', 'u', 'l','i', 'e',' ','W','i','l','l','i','a',' ', ' ',' ',' ',' '};
-		replace(c,15);
+		String str= "Now or never    ";
+		char c[]= str.toCharArray();
+		replace(c,12);
 		
 		
 	}
