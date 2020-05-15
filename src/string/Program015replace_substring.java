@@ -26,7 +26,8 @@ public class Program015replace_substring {
 		
 		int loc= findNthOccurance(str,n);
 		
-		currentPhrase =currentPhrase.substring(0, loc) + repl+ currentPhrase.substring(loc + str.length(), currentPhrase.length());
+		if(loc!=-1)
+		  currentPhrase =currentPhrase.substring(0, loc) + repl+ currentPhrase.substring(loc + str.length(), currentPhrase.length());
 	}
 	
 	
